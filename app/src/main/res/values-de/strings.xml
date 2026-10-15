@@ -342,11 +342,22 @@
     <string name="settings_lock_now">Jetzt sperren</string>
     <string name="settings_set_pin">PIN festlegen</string>
     <string name="settings_no_pin_explanation">Keine PIN festgelegt. Deine Daten sind auf diesem Gerät verschlüsselt, aber nur durch den Schlüsselspeicher des Geräts geschützt, nicht durch eine PIN. Automatische Sperre, biometrische Entsperrung und „Jetzt sperren“ sind ohne PIN nicht verfügbar.</string>
-    <string name="settings_section_backup">Sicherung &amp; Export</string>
+    <string name="settings_section_danger_zone">Gefahrenbereich</string>
     <string name="settings_allow_unsafe_exports">Unsichere Exporte erlauben</string>
     <string name="settings_allow_unsafe_exports_summary">Aktiviert einen unverschlüsselten CSV-Export unter „Sicherung &amp; Import“. Standardmäßig deaktiviert.</string>
     <string name="settings_unsafe_exports_dialog_title">Unsichere Exporte erlauben?</string>
     <string name="settings_unsafe_exports_dialog_body">Damit kannst du deine Daten als unverschlüsselte CSV-Datei in den gemeinsamen Speicher exportieren. Diese Datei ist reiner Text ohne Passphrase: Cloud-Sicherungsdienste, Dateimanager und jede andere App, die den gemeinsamen Speicher lesen kann, können alle deine Einträge lesen.\n\nAktiviere dies nur, wenn du dieses Risiko verstehst und in Kauf nimmst.</string>
+    <string name="settings_allow_screenshots">Screenshots erlauben</string>
+    <plurals name="settings_allow_screenshots_summary">
+        <item quantity="one">Erlaubt Screenshots und Bildschirmaufnahmen vorübergehend für %1$d Minute. Der Sperrbildschirm bleibt geschützt. Standardmäßig deaktiviert.</item>
+        <item quantity="other">Erlaubt Screenshots und Bildschirmaufnahmen vorübergehend für %1$d Minuten. Der Sperrbildschirm bleibt geschützt. Standardmäßig deaktiviert.</item>
+    </plurals>
+    <string name="settings_screenshots_allowed_until">Erlaubt bis %1$s</string>
+    <string name="settings_screenshots_dialog_title">Screenshots erlauben?</string>
+    <plurals name="settings_screenshots_dialog_body">
+        <item quantity="one">In der nächsten %1$d Minute können Screenshots, Bildschirmaufnahmen, Bildschirmübertragung und die Vorschau der zuletzt verwendeten Apps alles erfassen, was angezeigt wird, auch deine Einträge. Screenshots werden im gemeinsamen Speicher abgelegt, wo Cloud-Sicherungsdienste und andere Apps sie lesen können.\n\nScreenshots werden nach %1$d Minute oder beim Sperren der App automatisch wieder blockiert.</item>
+        <item quantity="other">In den nächsten %1$d Minuten können Screenshots, Bildschirmaufnahmen, Bildschirmübertragung und die Vorschau der zuletzt verwendeten Apps alles erfassen, was angezeigt wird, auch deine Einträge. Screenshots werden im gemeinsamen Speicher abgelegt, wo Cloud-Sicherungsdienste und andere Apps sie lesen können.\n\nScreenshots werden nach %1$d Minuten oder beim Sperren der App automatisch wieder blockiert.</item>
+    </plurals>
     <string name="settings_section_diagnostics">Diagnose</string>
     <plurals name="settings_test_notification">
         <item quantity="one">Testbenachrichtigung (in etwa %1$d Sekunde)</item>

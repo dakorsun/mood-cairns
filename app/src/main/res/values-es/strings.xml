@@ -353,11 +353,24 @@
     <string name="settings_lock_now">Bloquear ahora</string>
     <string name="settings_set_pin">Configurar PIN</string>
     <string name="settings_no_pin_explanation">No hay ningún PIN configurado. Tus datos están cifrados en este dispositivo, pero solo los protege el almacén de claves del dispositivo, no un PIN. El bloqueo automático, el desbloqueo biométrico y Bloquear ahora no están disponibles sin PIN.</string>
-    <string name="settings_section_backup">Copia de seguridad y exportación</string>
+    <string name="settings_section_danger_zone">Zona de peligro</string>
     <string name="settings_allow_unsafe_exports">Permitir exportaciones no seguras</string>
     <string name="settings_allow_unsafe_exports_summary">Activa una exportación CSV sin cifrar en Copia de seguridad. Desactivado de forma predeterminada.</string>
     <string name="settings_unsafe_exports_dialog_title">¿Permitir exportaciones no seguras?</string>
     <string name="settings_unsafe_exports_dialog_body">Esto añade una opción para exportar tus datos como un archivo CSV sin cifrar al almacenamiento compartido. Ese archivo es texto plano sin frase de contraseña: los servicios de copia en la nube, los gestores de archivos y cualquier otra app que pueda leer el almacenamiento compartido podrán leer todos tus registros.\n\nActívalo solo si entiendes y aceptas ese riesgo.</string>
+    <string name="settings_allow_screenshots">Permitir capturas de pantalla</string>
+    <plurals name="settings_allow_screenshots_summary">
+        <item quantity="one">Permite temporalmente capturas y grabaciones de pantalla durante %1$d minuto. La pantalla de bloqueo sigue protegida. Desactivado de forma predeterminada.</item>
+        <item quantity="many">Permite temporalmente capturas y grabaciones de pantalla durante %1$d minutos. La pantalla de bloqueo sigue protegida. Desactivado de forma predeterminada.</item>
+        <item quantity="other">Permite temporalmente capturas y grabaciones de pantalla durante %1$d minutos. La pantalla de bloqueo sigue protegida. Desactivado de forma predeterminada.</item>
+    </plurals>
+    <string name="settings_screenshots_allowed_until">Permitido hasta %1$s</string>
+    <string name="settings_screenshots_dialog_title">¿Permitir capturas de pantalla?</string>
+    <plurals name="settings_screenshots_dialog_body">
+        <item quantity="one">Durante el próximo %1$d minuto, las capturas y grabaciones de pantalla, la transmisión y la vista previa de apps recientes podrán captar todo lo que se muestre, incluidos tus registros. Las capturas se guardan en el almacenamiento compartido, donde los servicios de copia en la nube y otras apps pueden leerlas.\n\nLas capturas se bloquearán de nuevo automáticamente tras %1$d minuto o cuando se bloquee la app.</item>
+        <item quantity="many">Durante los próximos %1$d minutos, las capturas y grabaciones de pantalla, la transmisión y la vista previa de apps recientes podrán captar todo lo que se muestre, incluidos tus registros. Las capturas se guardan en el almacenamiento compartido, donde los servicios de copia en la nube y otras apps pueden leerlas.\n\nLas capturas se bloquearán de nuevo automáticamente tras %1$d minutos o cuando se bloquee la app.</item>
+        <item quantity="other">Durante los próximos %1$d minutos, las capturas y grabaciones de pantalla, la transmisión y la vista previa de apps recientes podrán captar todo lo que se muestre, incluidos tus registros. Las capturas se guardan en el almacenamiento compartido, donde los servicios de copia en la nube y otras apps pueden leerlas.\n\nLas capturas se bloquearán de nuevo automáticamente tras %1$d minutos o cuando se bloquee la app.</item>
+    </plurals>
     <string name="settings_section_diagnostics">Diagnóstico</string>
     <plurals name="settings_test_notification">
         <item quantity="one">Notificación de prueba (en aproximadamente %1$d segundo)</item>

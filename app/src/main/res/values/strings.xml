@@ -412,11 +412,22 @@
     <string name="settings_lock_now">Lock now</string>
     <string name="settings_set_pin">Set PIN</string>
     <string name="settings_no_pin_explanation">No PIN set. Your data is encrypted on this device but protected only by your device\'s keystore, not by a PIN. Auto-lock, biometric unlock, and lock-now are unavailable without a PIN.</string>
-    <string name="settings_section_backup">Backup &amp; export</string>
+    <string name="settings_section_danger_zone">Danger zone</string>
     <string name="settings_allow_unsafe_exports">Allow unsafe exports</string>
     <string name="settings_allow_unsafe_exports_summary">Enables an unencrypted CSV export under Backup &amp; import. Off by default.</string>
     <string name="settings_unsafe_exports_dialog_title">Allow unsafe exports?</string>
     <string name="settings_unsafe_exports_dialog_body">This adds an option to export your data as an unencrypted CSV file to shared storage. That file is plain text with no passphrase: cloud backup services, file managers, and any other app that can read shared storage will be able to read all of your entries.\n\nOnly enable this if you understand and accept that danger.</string>
+    <string name="settings_allow_screenshots">Allow screenshots</string>
+    <plurals name="settings_allow_screenshots_summary">
+        <item quantity="one">Temporarily allows screenshots and screen recording for %1$d minute. The lock screen stays protected. Off by default.</item>
+        <item quantity="other">Temporarily allows screenshots and screen recording for %1$d minutes. The lock screen stays protected. Off by default.</item>
+    </plurals>
+    <string name="settings_screenshots_allowed_until">Allowed until %1$s</string>
+    <string name="settings_screenshots_dialog_title">Allow screenshots?</string>
+    <plurals name="settings_screenshots_dialog_body">
+        <item quantity="one">For the next %1$d minute, screenshots, screen recordings, casting, and the recent-apps preview can capture everything shown, including your entries. Screenshots are saved to shared storage, where cloud backup services and other apps can read them.\n\nScreenshots are blocked again automatically after %1$d minute or when the app locks.</item>
+        <item quantity="other">For the next %1$d minutes, screenshots, screen recordings, casting, and the recent-apps preview can capture everything shown, including your entries. Screenshots are saved to shared storage, where cloud backup services and other apps can read them.\n\nScreenshots are blocked again automatically after %1$d minutes or when the app locks.</item>
+    </plurals>
     <string name="settings_section_diagnostics">Diagnostics</string>
     <plurals name="settings_test_notification">
         <item quantity="one">Test notification (fires in about %1$d second)</item>
