@@ -127,7 +127,7 @@
     <string name="home_log_entry">Новая запись</string>
     <string name="home_history">История</string>
     <string name="home_charts">Графики</string>
-    <string name="home_backup">Резервные копии</string>
+    <string name="home_backup">Резервные копии и импорт</string>
     <string name="home_scales">Управление шкалами</string>
     <string name="home_tags">Управление тегами</string>
     <string name="home_settings">Настройки</string>
@@ -227,14 +227,14 @@
     <string name="window_edit_title_new">Новое окно напоминания</string>
     <string name="window_edit_title_edit">Изменить окно напоминания</string>
     <string name="window_edit_label_label">Название</string>
-    <string name="window_edit_slot_label">Тип</string>
+    <string name="window_edit_slot_label">Тип окна</string>
     <string name="window_edit_start">Начало: %1$s</string>
     <string name="window_edit_end">Конец: %1$s</string>
     <string name="window_edit_enabled">Включено</string>
     <string name="window_edit_select_time">Выберите время</string>
 
     <!-- Backup screen -->
-    <string name="backup_title">Резервные копии</string>
+    <string name="backup_title">Резервные копии и импорт</string>
     <string name="backup_intro">Резервные копии шифруются с помощью AES-GCM ключом, полученным из выбранной вами парольной фразы, и сохраняются в Documents/MoodCairns. Syncthing или любой файловый менеджер может синхронизировать их на другие устройства; само приложение ничего не загружает.</string>
     <string name="backup_export">Экспортировать</string>
     <string name="backup_export_csv">Экспорт в CSV без шифрования</string>
@@ -373,7 +373,7 @@
     <string name="settings_no_pin_explanation">PIN-код не установлен. Ваши данные зашифрованы на этом устройстве, но защищены только хранилищем ключей устройства, а не PIN-кодом. Без PIN-кода недоступны автоблокировка, биометрическая разблокировка и «Заблокировать сейчас».</string>
     <string name="settings_section_danger_zone">Опасная зона</string>
     <string name="settings_allow_unsafe_exports">Разрешить небезопасный экспорт</string>
-    <string name="settings_allow_unsafe_exports_summary">Включает экспорт в CSV без шифрования в разделе «Резервные копии». По умолчанию выключено.</string>
+    <string name="settings_allow_unsafe_exports_summary">Включает экспорт в CSV без шифрования в разделе «Резервные копии и импорт». По умолчанию выключено.</string>
     <string name="settings_unsafe_exports_dialog_title">Разрешить небезопасный экспорт?</string>
     <string name="settings_unsafe_exports_dialog_body">Появится возможность экспортировать данные в незашифрованный CSV-файл в общем хранилище. Этот файл содержит обычный текст без парольной фразы: облачные сервисы резервного копирования, файловые менеджеры и любые другие приложения с доступом к общему хранилищу смогут прочитать все ваши записи.\n\nВключайте эту функцию, только если понимаете и принимаете этот риск.</string>
     <string name="settings_allow_screenshots">Разрешить скриншоты</string>
@@ -415,10 +415,10 @@
     <string name="set_pin_title">Установите PIN-код</string>
     <string name="set_pin_intro">Ваши записи никогда не покидают устройство. PIN-код и биометрическая разблокировка сохраняют их только для вас.</string>
     <plurals name="set_pin_pin_label">
-        <item quantity="one">PIN-код (%1$d–%2$d цифра)</item>
-        <item quantity="few">PIN-код (%1$d–%2$d цифры)</item>
+        <item quantity="one">PIN-код (%1$d–%2$d цифр)</item>
+        <item quantity="few">PIN-код (%1$d–%2$d цифр)</item>
         <item quantity="many">PIN-код (%1$d–%2$d цифр)</item>
-        <item quantity="other">PIN-код (%1$d–%2$d цифры)</item>
+        <item quantity="other">PIN-код (%1$d–%2$d цифр)</item>
     </plurals>
     <string name="set_pin_confirm_label">Подтвердите PIN-код</string>
     <string name="set_pin_save">Сохранить PIN-код</string>
