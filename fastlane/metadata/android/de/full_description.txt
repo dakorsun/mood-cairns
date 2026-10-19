@@ -9,7 +9,7 @@ Ein privates, komplett offline arbeitendes Stimmungstagebuch für Android. Trage
 * <b>In deiner Sprache.</b> Verfügbar auf Deutsch, Englisch und Spanisch. Die App-Sprache kannst du in den Einstellungen wählen, unabhängig von der Sprache deines Telefons.
 * <b>Verschlüsselte Speicherung.</b> Die Datenbank wird mit SQLCipher verschlüsselt gespeichert. Der Schlüssel liegt nur im Arbeitsspeicher, solange die App entsperrt ist, und wird beim Sperren gelöscht.
 * <b>Sperre mit PIN und Biometrie.</b> Zugang zur App per PIN, optional mit biometrischer Entsperrung. Die PIN wird vor dem Speichern mit PBKDF2-HMAC-SHA256 (600.000 Iterationen) gehasht.
-* <b>Verschlüsselte Sicherungen.</b> Der manuelle Export schreibt eine mit AES-GCM verschlüsselte JSON-Datei nach Documents/MoodCairns/. Der Schlüssel wird aus einer Passphrase deiner Wahl (mindestens 8 Zeichen) mit PBKDF2-HMAC-SHA256 (600.000 Iterationen) und einem neuen Salt pro Sicherung abgeleitet, sodass jede Installation, auch eine neue, die Sicherung mit derselben Passphrase entschlüsseln kann. Sicherungen älterer Versionen, die mit der Geräte-PIN verschlüsselt wurden, lassen sich weiterhin mit dieser PIN importieren.
+* <b>Verschlüsselte Sicherungen.</b> Der manuelle Export schreibt eine mit AES-GCM verschlüsselte JSON-Datei nach Documents/MoodCairns/. Der Schlüssel wird aus einer Passphrase deiner Wahl (mindestens 8 Zeichen) mit PBKDF2-HMAC-SHA256 (600.000 Iterationen) und einem neuen Salt pro Sicherung abgeleitet, sodass jede Installation, auch eine neue, die Sicherung mit derselben Passphrase entschlüsseln kann. Sicherungen älterer Versionen, die mit der App-PIN verschlüsselt wurden, lassen sich weiterhin mit dieser PIN importieren.
 
 <b>Datenschutzversprechen</b>
 
