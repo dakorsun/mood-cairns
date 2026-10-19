@@ -12,8 +12,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <string name="widget_title">Записать настроение</string>
     <string name="widget_subtitle">Нажмите, чтобы открыть Mood Cairns</string>
-    <string name="widget_description">Быстро записать настроение</string>
-
+    <string name="widget_description">Быстрое добавление записи</string>
     <!-- Common -->
     <string name="common_back">Назад</string>
     <string name="common_cancel">Отмена</string>
@@ -51,37 +50,34 @@
         <item quantity="many">%1$d мин</item>
         <item quantity="other">%1$d мин</item>
     </plurals>
-
     <!-- Shared errors -->
     <string name="error_save_failed">Не удалось сохранить: %1$s</string>
     <string name="error_delete_failed">Не удалось удалить: %1$s</string>
     <string name="error_name_required">Укажите название</string>
     <string name="error_pins_mismatch">PIN-коды не совпадают</string>
     <plurals name="error_pin_too_short">
-        <item quantity="one">PIN-код должен содержать минимум %1$d цифру</item>
-        <item quantity="few">PIN-код должен содержать минимум %1$d цифры</item>
+        <item quantity="one">PIN-код должен содержать минимум %1$d цифры</item>
+        <item quantity="few">PIN-код должен содержать минимум %1$d цифр</item>
         <item quantity="many">PIN-код должен содержать минимум %1$d цифр</item>
         <item quantity="other">PIN-код должен содержать минимум %1$d цифры</item>
     </plurals>
-
     <!-- Prompt slot names -->
     <string name="enum_prompt_slot_morning">Утро</string>
     <string name="enum_prompt_slot_evening">Вечер</string>
     <string name="enum_prompt_slot_manual">Вручную</string>
     <string name="enum_prompt_slot_custom">Своё</string>
-
     <!-- Built-in scales, tags, and prompt windows -->
-    <string name="seed_scale_happiness">Счастье</string>
-    <string name="seed_scale_anxiety">Тревога</string>
-    <string name="seed_scale_stress">Стресс</string>
+    <string name="seed_scale_happiness">Настроение</string>
+    <string name="seed_scale_anxiety">Стресс / Напряжение</string>
+    <string name="seed_scale_stress">Апатия / Скука</string>
     <string name="seed_scale_boredom">Скука</string>
     <string name="seed_scale_pain">Боль</string>
     <string name="seed_tag_home">Дом</string>
     <string name="seed_tag_work">Работа</string>
     <string name="seed_tag_school">Учёба</string>
-    <string name="seed_tag_commute">Дорога</string>
+    <string name="seed_tag_commute">В пути</string>
     <string name="seed_tag_outdoors">На улице</string>
-    <string name="seed_tag_travel">Поездки</string>
+    <string name="seed_tag_travel">Путешествия</string>
     <string name="seed_tag_family">Семья</string>
     <string name="seed_tag_friends">Друзья</string>
     <string name="seed_tag_partner">Партнёр</string>
@@ -107,21 +103,18 @@
     <string name="seed_tag_disgust">Отвращение</string>
     <string name="seed_window_morning">Утро</string>
     <string name="seed_window_evening">Вечер</string>
-
     <!-- Tag categories -->
     <string name="enum_tag_category_place">Места</string>
     <string name="enum_tag_category_person">Люди</string>
     <string name="enum_tag_category_activity">Занятия</string>
     <string name="enum_tag_category_mood">Эмоции</string>
     <string name="enum_tag_category_other">Другое</string>
-
     <!-- Notifications -->
     <string name="notif_channel_prompts_name">Напоминания о настроении</string>
     <string name="notif_channel_prompts_description">Ненавязчивые напоминания записать, как вы себя чувствуете.</string>
     <string name="notif_prompt_default_title">Время для записи</string>
     <string name="notif_prompt_text">Запишите, как вы себя чувствуете</string>
     <string name="notif_test_title">Тестовое уведомление</string>
-
     <!-- Home screen -->
     <string name="home_tagline">Записывайте, как вы себя чувствуете. Конфиденциально.</string>
     <string name="home_log_entry">Новая запись</string>
@@ -132,18 +125,16 @@
     <string name="home_tags">Управление тегами</string>
     <string name="home_settings">Настройки</string>
     <string name="home_about">О приложении</string>
-
     <!-- Entry screen -->
     <string name="entry_title_new">Как вы себя чувствуете?</string>
     <string name="entry_title_edit">Изменить запись</string>
     <string name="entry_no_scales">Шкалы не настроены. Добавьте шкалу в разделе «Управление шкалами».</string>
     <string name="entry_note_label">Заметка (необязательно)</string>
-    <string name="entry_prompt_slot_label">Окно напоминания</string>
+    <string name="entry_prompt_slot_label">Интервал напоминания</string>
     <string name="entry_change_date_time">Изменить дату и время…</string>
     <string name="entry_slider_description_out_of">%1$s, значение %2$s из %3$d</string>
     <string name="entry_slider_description_range" tools:ignore="PluralsCandidate">%1$s, значение %2$s в диапазоне от %3$d до %4$d</string>
-    <string name="entry_slider_description_lower_better">%1$s, чем ниже, тем лучше</string>
-
+    <string name="entry_slider_description_lower_better">%1$s (меньше — лучше)</string>
     <!-- History screen -->
     <string name="history_title">История</string>
     <string name="history_add_past">Добавить прошлую запись</string>
@@ -156,7 +147,6 @@
     <string name="history_clear_search">Очистить поиск</string>
     <string name="history_clear_all">Сбросить все</string>
     <string name="history_pick_date">Выбрать дату</string>
-
     <!-- Scale list -->
     <string name="scale_list_title">Шкалы</string>
     <string name="scale_list_add">Добавить шкалу</string>
@@ -166,10 +156,9 @@
     <string name="scale_list_archive">В архив</string>
     <string name="scale_list_unarchive">Из архива</string>
     <string name="scale_list_step">шаг %1$s</string>
-    <string name="scale_list_default">начало %1$s</string>
-    <string name="scale_list_lower_better">чем ниже, тем лучше</string>
+    <string name="scale_list_default">по умолчанию: %1$s</string>
+    <string name="scale_list_lower_better">меньше — лучше</string>
     <string name="scale_list_built_in">встроенная</string>
-
     <!-- Scale editor -->
     <string name="scale_edit_title_new">Новая шкала</string>
     <string name="scale_edit_title_edit">Изменить шкалу</string>
@@ -177,21 +166,21 @@
     <string name="scale_edit_max_label">Макс.</string>
     <string name="scale_edit_step_label">Шаг</string>
     <string name="scale_edit_default_label">Начальное значение</string>
-    <string name="scale_edit_default_hint">С этого значения начинается ползунок в новой записи. Если оставить пустым, ползунок начнётся с середины.</string>
-    <string name="scale_edit_lower_better">Чем ниже, тем лучше</string>
-    <string name="scale_edit_lower_better_hint">Обратная шкала: ползунок идёт от большего к меньшему, а на графиках улучшение направлено вверх.</string>
+    <string name="scale_edit_default_hint">С этого значения начинается ползунок в новой записи. Если оставить пустым, ползунок начнётся с середины шкал.</string>
+    <string name="scale_edit_lower_better">Меньше — лучше</string>
+    <string name="scale_edit_lower_better_hint">Инвертировать шкалу: меньшие значения будут считаться улучшением состояния, а на графиках тренд поползет вверх.</string>
     <string name="scale_edit_color_label">Цвет</string>
-    <string name="scale_edit_built_in_hint">Встроенные шкалы нельзя переименовать, но можно изменить диапазон, шаг и цвет.</string>
+    <string name="scale_edit_built_in_hint">Встроенные шкалы нельзя переименовать, но можно изменить их диапазон, шаг ползунка и цвет.</string>
     <string name="scale_edit_delete">Удалить шкалу</string>
     <string name="scale_edit_this_scale">эта шкала</string>
     <string name="scale_edit_remap_title">Пересчитать записанные значения?</string>
     <string name="scale_edit_remap_confirm">Пересчитать</string>
-    <string name="scale_edit_remap_keep">Оставить значения</string>
+    <string name="scale_edit_remap_keep">Оставить как есть</string>
     <plurals name="scale_edit_remap_body">
-        <item quantity="one">%1$d запись содержит данные по шкале «%2$s». При пересчёте каждое значение v заменяется на (min + max) - v, чтобы прошлые записи сохранили смысл при новом направлении. Выберите «%3$s», если нужно изменить только отображение шкалы.</item>
-        <item quantity="few">%1$d записи содержат данные по шкале «%2$s». При пересчёте каждое значение v заменяется на (min + max) - v, чтобы прошлые записи сохранили смысл при новом направлении. Выберите «%3$s», если нужно изменить только отображение шкалы.</item>
-        <item quantity="many">%1$d записей содержат данные по шкале «%2$s». При пересчёте каждое значение v заменяется на (min + max) - v, чтобы прошлые записи сохранили смысл при новом направлении. Выберите «%3$s», если нужно изменить только отображение шкалы.</item>
-        <item quantity="other">%1$d записи содержат данные по шкале «%2$s». При пересчёте каждое значение v заменяется на (min + max) - v, чтобы прошлые записи сохранили смысл при новом направлении. Выберите «%3$s», если нужно изменить только отображение шкалы.</item>
+        <item quantity="one">%1$d запись содержит данные по шкале «%2$s». При пересчёте каждое значение v заменяется на (min + max) - v, чтобы прошлые записи сохранили свой смысл при новом направлении шкалы. Выберите «%3$s», если нужно изменить только отображение.</item>
+        <item quantity="few">%1$d записи содержат данные по шкале «%2$s». При пересчёте каждое значение v заменяется на (min + max) - v, чтобы прошлые записи сохранили свой смысл при новом направлении шкалы. Выберите «%3$s», если нужно изменить только отображение.</item>
+        <item quantity="many">%1$d записей содержат данные по шкале «%2$s». При пересчёте каждое значение v заменяется на (min + max) - v, чтобы прошлые записи сохранили свой смысл при новом направлении шкалы. Выберите «%3$s», если нужно изменить только отображение.</item>
+        <item quantity="other">%1$d записи содержат данные по шкале «%2$s». При пересчёте каждое значение v заменяется на (min + max) - v, чтобы прошлые записи сохранили свой смысл при новом направлении шкалы. Выберите «%3$s», если нужно изменить только отображение.</item>
     </plurals>
     <string name="scale_edit_delete_title">Удалить шкалу?</string>
     <string name="scale_edit_delete_body">Шкала «%1$s» и все записанные по ней данные будут удалены без возможности восстановления.</string>
@@ -202,11 +191,9 @@
         <item quantity="many">%1$d записей содержат данные по шкале «%2$s». Шкала «%2$s» и все записанные по ней данные будут удалены без возможности восстановления.</item>
         <item quantity="other">%1$d записи содержат данные по шкале «%2$s». Шкала «%2$s» и все записанные по ней данные будут удалены без возможности восстановления.</item>
     </plurals>
-
     <!-- Tag list -->
     <string name="tag_list_title">Теги</string>
     <string name="tag_list_empty">Тегов пока нет.</string>
-
     <!-- Tag editor -->
     <string name="tag_edit_title_new">Новый тег</string>
     <string name="tag_edit_title_edit">Изменить тег</string>
@@ -214,7 +201,7 @@
     <string name="tag_edit_delete">Удалить тег</string>
     <string name="tag_edit_this_tag">этот тег</string>
     <string name="tag_edit_delete_title">Удалить тег?</string>
-    <string name="tag_edit_delete_body">Тег «%1$s» будет удалён. Данные записей сохранятся, с них будет снят только этот тег.</string>
+    <string name="tag_edit_delete_body">Тег «%1$s» будет удалён. Данные в записях сохранятся, с них будет снят только этот тег.</string>
     <string name="tag_edit_delete_body_unused">Тег «%1$s» пока не используется ни в одной записи.</string>
     <plurals name="tag_edit_delete_body_used">
         <item quantity="one">%1$d запись отмечена тегом «%2$s». Данные записей сохранятся, с них будет снят только этот тег.</item>
@@ -222,31 +209,29 @@
         <item quantity="many">%1$d записей отмечены тегом «%2$s». Данные записей сохранятся, с них будет снят только этот тег.</item>
         <item quantity="other">%1$d записи отмечены тегом «%2$s». Данные записей сохранятся, с них будет снят только этот тег.</item>
     </plurals>
-
     <!-- Prompt window editor -->
-    <string name="window_edit_title_new">Новое окно напоминания</string>
-    <string name="window_edit_title_edit">Изменить окно напоминания</string>
+    <string name="window_edit_title_new">Новый интервал напоминания</string>
+    <string name="window_edit_title_edit">Изменить интервал напоминания</string>
     <string name="window_edit_label_label">Название</string>
-    <string name="window_edit_slot_label">Тип окна</string>
+    <string name="window_edit_slot_label">Время суток</string>
     <string name="window_edit_start">Начало: %1$s</string>
     <string name="window_edit_end">Конец: %1$s</string>
     <string name="window_edit_enabled">Включено</string>
     <string name="window_edit_select_time">Выберите время</string>
-
     <!-- Backup screen -->
-    <string name="backup_title">Резервные копии и импорт</string>
-    <string name="backup_intro">Резервные копии шифруются с помощью AES-GCM ключом, полученным из выбранной вами парольной фразы, и сохраняются в Documents/MoodCairns. Syncthing или любой файловый менеджер может синхронизировать их на другие устройства; само приложение ничего не загружает.</string>
-    <string name="backup_export">Экспортировать</string>
-    <string name="backup_export_csv">Экспорт в CSV без шифрования</string>
-    <string name="backup_export_csv_warning">CSV-файл содержит обычный текст и НЕ зашифрован. Всё, что может читать вашу папку Documents (облачные резервные копии, файловые менеджеры, другие приложения), сможет прочитать ваши записи. Чтобы скрыть этот вариант, отключите небезопасный экспорт в настройках.</string>
-    <string name="backup_import">Импорт из файла (заменит все данные)</string>
+    <string name="backup_title">Резервное копирование</string>
+    <string name="backup_intro">Резервные копии шифруются по стандарту AES-GCM с помощью выбранного вами пароля и сохраняются в папку Documents/MoodCairns. Для синхронизации данных на другие устройства можно использовать Syncthing или любой файловый менеджер; само приложение ничего в сеть не загружает.</string>
+    <string name="backup_export">Создать копию</string>
+    <string name="backup_export_csv">Экспорт в CSV (без шифрования)</string>
+    <string name="backup_export_csv_warning">CSV-файл содержит обычный текст и НЕ защищен шифрованием. Любые программы с доступом к вашей папке Documents (облачные диски, файловые менеджеры) смогут прочесть ваши личные записи. Чтобы скрыть эту кнопку, отключите небезопасный экспорт в настройках.</string>
+    <string name="backup_import">Импорт из файла (заменит все текущие данные)</string>
     <string name="backup_existing_label">Существующие копии</string>
     <string name="backup_none">Пока нет.</string>
     <string name="backup_encrypt_title">Зашифровать резервную копию</string>
-    <string name="backup_encrypt_body">Выберите парольную фразу для шифрования этой копии. Для восстановления понадобится именно эта фраза, даже после новой установки. Это не PIN-код приложения, и восстановить фразу, если вы её забудете, невозможно.</string>
-    <string name="backup_passphrase_label">Парольная фраза</string>
-    <string name="backup_passphrase_confirm_label">Подтвердите парольную фразу</string>
-    <string name="backup_passphrase_mismatch">Парольные фразы не совпадают</string>
+    <string name="backup_encrypt_body">Придумайте пароль для шифрования этой копии. Для восстановления данных понадобится именно он, даже при установке приложения на новый телефон. Это не PIN-код от входа в приложение. Если вы забудете этот пароль, восстановить данные будет невозможно.</string>
+    <string name="backup_passphrase_label">Пароль для резервной копии</string>
+    <string name="backup_passphrase_confirm_label">Подтвердите пароль</string>
+    <string name="backup_passphrase_mismatch">Пароли не совпадают</string>
     <plurals name="backup_passphrase_min_length">
         <item quantity="one">Минимум %1$d символ</item>
         <item quantity="few">Минимум %1$d символа</item>
@@ -254,31 +239,29 @@
         <item quantity="other">Минимум %1$d символа</item>
     </plurals>
     <string name="backup_decrypt_title">Расшифровать резервную копию</string>
-    <string name="backup_decrypt_body">Введите парольную фразу, которой была зашифрована эта копия. Для старых копий это PIN-код, который был установлен при их создании.</string>
-    <string name="backup_passphrase_or_pin_label">Парольная фраза или PIN-код</string>
-
+    <string name="backup_decrypt_body">Введите пароль, которым была зашифрована эта копия. Для бэкапов из старых версий приложения введите PIN-код, который был установлен на устройстве в момент их создания.</string>
+    <string name="backup_passphrase_or_pin_label">Пароль или PIN-код</string>
     <!-- About screen -->
     <string name="about_title">О приложении</string>
     <string name="about_version">Версия %1$s</string>
-    <string name="about_why_title">Зачем это приложение</string>
-    <string name="about_why_body">Mood Cairns появился, потому что мне хотелось иметь трекер настроения со всеми нужными мне функциями и без всего лишнего: без навязчивой слежки, без аналитики, без учётной записи и без необходимости покупать что-либо через Google Play Store. Ваши записи хранятся только на вашем устройстве: приложение не запрашивает доступ к сети, и так будет всегда.</string>
+    <string name="about_why_title">Зачем создано это приложение</string>
+    <string name="about_why_body">Mood Cairns появился потому, что мне хотелось иметь удобный трекер настроения без всего лишнего: без скрытой слежки, без встроенной аналитики, без создания учетных записей и без необходимости покупать подписки через Google Play Store. Ваши записи хранятся исключительно на вашем личном устройстве: приложение принципиально не запрашивает доступ к интернету, и так будет всегда.</string>
     <string name="about_made_by">Разработчик: %1$s. Бесплатно и с открытым исходным кодом. Спасибо!</string>
     <string name="about_updates_title">Обновления</string>
-    <string name="about_updates_body">&lt;b&gt;Если вы используете F-Droid, обновления должны приходить автоматически&lt;/b&gt;. Если этого не происходит или вы скачали Mood Cairns с GitHub, проверьте обновления кнопкой ниже и &lt;b&gt;скачайте последний файл .apk&lt;/b&gt; в разделе Assets.</string>
+    <string name="about_updates_body"><b>Если вы установили приложение через F-Droid, обновления будут приходить автоматически</b>. Если вы скачали Mood Cairns напрямую с GitHub, вы можете проверить наличие обновлений кнопкой ниже и <b>скачать свежий файл .apk</b> из раздела Assets.</string>
     <string name="about_get_latest">Скачать последнюю версию</string>
-    <string name="about_get_latest_hint">Откроет последний выпуск на GitHub в браузере. Само приложение никогда не обращается к сети.</string>
-    <string name="about_no_browser">Не найден браузер, чтобы открыть страницу.</string>
-    <string name="about_contact_title">Связь</string>
-    <string name="about_contact_body">Чтобы предложить изменения или новые функции, лучше всего &lt;a href=\"%1$s\"&gt;создать новый issue на GitHub&lt;/a&gt;.</string>
-
+    <string name="about_get_latest_hint">Откроет страницу релизов на GitHub в вашем браузере. Само приложение к сети не обращается.</string>
+    <string name="about_no_browser">На устройстве не найден браузер для открытия страницы.</string>
+    <string name="about_contact_title">Обратная связь</string>
+    <string name="about_contact_body">Чтобы предложить новую функцию или сообщить об ошибке, пожалуйста, <a href=\"%1$s\">создайте новое обращение (issue) на GitHub</a>.</string>
     <!-- Charts screen -->
     <string name="charts_title">Графики</string>
-    <string name="charts_help_button">Как читать графики</string>
+    <string name="charts_help_button">Справка</string>
     <string name="charts_no_data">Нет данных за этот период.</string>
     <string name="charts_date_range_label">Период</string>
     <string name="charts_change_range">Изменить</string>
     <string name="charts_select_range">Выберите период</string>
-    <string name="charts_series_label">Ряд</string>
+    <string name="charts_series_label">Отображение</string>
     <string name="charts_mode_raw">По дням</string>
     <plurals name="charts_mode_rolling">
         <item quantity="one">Среднее за %1$d день</item>
@@ -301,11 +284,11 @@
     <string name="charts_y_axis_label">Ось Y</string>
     <string name="charts_axis_autofit">Авто</string>
     <string name="charts_axis_absolute">Полная</string>
-    <string name="charts_prompt_slots_label">Окна напоминаний</string>
+    <string name="charts_prompt_slots_label">Интервалы напоминаний</string>
     <string name="charts_slot_other">Другие</string>
     <string name="charts_scales_label">Шкалы</string>
     <string name="charts_tags_label">Теги</string>
-    <string name="charts_axis_caption_absolute" formatted="false">Вертикальная ось: положение в пределах диапазона каждой шкалы (100% = верх диапазона; шкалы «чем ниже, тем лучше» перевёрнуты)</string>
+    <string name="charts_axis_caption_absolute" formatted="false">Вертикальная ось: положение в пределах диапазона каждой шкалы (100% = верх диапазона; шкалы с пометкой «меньше — лучше» перевёрнуты)</string>
     <string name="charts_axis_caption_values">Вертикальная ось: записанные значения</string>
     <string name="charts_axis_caption_single">Вертикальная ось: %1$s (%2$s)</string>
     <plurals name="charts_axis_caption_shared">
@@ -315,53 +298,47 @@
         <item quantity="other">Вертикальная ось: записанные значения, %1$d шкалы используют одну ось</item>
     </plurals>
     <string name="charts_legend">%1$s (%2$s)</string>
-    <string name="charts_legend_lower_better">%1$s (%2$s, чем ниже, тем лучше)</string>
+    <string name="charts_legend_lower_better">%1$s (%2$s, меньше — лучше)</string>
     <string name="charts_no_entries_day">В этот день записей нет.</string>
     <string name="charts_point_value">%1$s: %2$s</string>
-
     <!-- Charts help dialog -->
     <string name="charts_help_title">Как читать графики</string>
     <string name="charts_help_dismiss">Понятно</string>
-    <string name="charts_help_intro">Два переключателя меняют то, как отображаются ваши значения. Выбор здесь не меняет данные, только внешний вид графика.</string>
-    <string name="charts_help_series_title">Ряд: %1$s или %2$s</string>
-    <string name="charts_help_raw_body">Показывает каждый день точно так, как он был записан. Удобно, чтобы видеть изменения от дня к дню, но график может выглядеть неровным.</string>
+    <string name="charts_help_intro">Два переключателя меняют то, как отображаются ваши значения. Выбор здесь не меняет сами данные, только внешний вид графика.</string>
+    <string name="charts_help_series_title">Отображение: %1$s или %2$s</string>
+    <string name="charts_help_raw_body">Показывает каждый день точно так, как он был записан. Удобно, чтобы видеть резкие изменения от дня к дню, но график может выглядеть неровным.</string>
     <plurals name="charts_help_rolling_body">
-        <item quantity="one">Каждый день заменяется средним за период в %1$d дн., который заканчивается этим днём. Так сглаживаются отдельные всплески, и общую тенденцию (растёт настроение или снижается) видно лучше.</item>
-        <item quantity="few">Каждый день заменяется средним за период в %1$d дн., который заканчивается этим днём. Так сглаживаются отдельные всплески, и общую тенденцию (растёт настроение или снижается) видно лучше.</item>
-        <item quantity="many">Каждый день заменяется средним за период в %1$d дн., который заканчивается этим днём. Так сглаживаются отдельные всплески, и общую тенденцию (растёт настроение или снижается) видно лучше.</item>
-        <item quantity="other">Каждый день заменяется средним за период в %1$d дн., который заканчивается этим днём. Так сглаживаются отдельные всплески, и общую тенденцию (растёт настроение или снижается) видно лучше.</item>
+        <item quantity="one">Каждый день заменяется средним за период в %1$d дн., который заканчивается этим днём. Так сглаживаются отдельные всплески, и общую тенденцию (растёт показатель или снижается) видно лучше.</item>
+        <item quantity="few">Каждый день заменяется средним за период в %1$d дн., который заканчивается этим днём. Так сглаживаются отдельные всплески, и общую тенденцию (растёт показатель или снижается) видно лучше.</item>
+        <item quantity="many">Каждый день заменяется средним за период в %1$d дн., который заканчивается этим днём. Так сглаживаются отдельные всплески, и общую тенденцию (растёт показатель или снижается) видно лучше.</item>
+        <item quantity="other">Каждый день заменяется средним за период в %1$d дн., который заканчивается этим днём. Так сглаживаются отдельные всплески, и общую тенденцию (растёт показатель или снижается) видно лучше.</item>
     </plurals>
     <string name="charts_help_axis_title">Ось Y: %1$s или %2$s</string>
-    <string name="charts_help_autofit_body">Масштабирует вертикальную ось только до того диапазона, который действительно занимают ваши данные. Небольшие изменения хорошо видны, потому что график заполняет всё пространство, но линия не соотносится с полным диапазоном шкалы. Подписи слева показывают записанные значения; если показано несколько шкал, все они используют эту одну ось.</string>
-    <string name="charts_help_absolute_body" formatted="false">Показывает каждую линию относительно полного диапазона её шкалы, от минимума до максимума. Изменения выглядят меньше, зато разные шкалы выравниваются, и их можно сравнивать на одном графике. Шкалы с пометкой «чем ниже, тем лучше» здесь перевёрнуты, чтобы улучшение всегда было направлено вверх. Подписи слева указаны в процентах, потому что каждая линия измеряется относительно своего диапазона: 100% соответствует верху диапазона, а для шкалы «чем ниже, тем лучше» соответствует его низу.</string>
-
+    <string name="charts_help_autofit_body">Масштабирует вертикальную ось только до того диапазона, который действительно занимают ваши данные. Небольшие изменения хорошо видны, потому что график заполняет всё пространство, но линия не соотносится с полным диапазоном шкалы. Подписи слева показывают записанные значения; если выбрано несколько шкал, все они используют эту одну ось.</string>
+    <string name="charts_help_absolute_body" formatted="false">Показывает каждую линию относительно полного диапазона её шкалы, от минимума до максимума. Изменения выглядят меньше, зато разные шкалы выравниваются, и их можно наглядно сравнивать на одном графике. Шкалы с пометкой «меньше — лучше» здесь перевёрнуты, чтобы улучшение состояния всегда было направлено вверх. Подписи слева указаны в процентах, потому что каждая линия измеряется относительно своего диапазона: 100% соответствует верху диапазона, а для шкалы «меньше — лучше» соответствует его нижней точке.</string>
     <!-- Data store upgrade -->
     <string name="migrating_title">Обновление хранилища данных…</string>
-    <string name="migrating_body">Ваши записи переносятся в зашифрованную базу данных. Не закрывайте приложение.</string>
-    <string name="migration_failed_title">Не удалось обновить</string>
-    <string name="migration_failed_body">Исходные данные по-прежнему на устройстве. Откройте приложение снова, чтобы повторить попытку, или, если проблема не исчезнет, удалите приложение и восстановите данные из резервной копии.</string>
-
+    <string name="migrating_body">Ваши записи переносятся в зашифрованную базу данных. Пожалуйста, не закрывайте приложение.</string
+    <string name="migration_failed_title">Не удалось обновить данные</string>
+    <string name="migration_failed_body">Исходные данные по-прежнему сохранены на устройстве. Откройте приложение снова, чтобы повторить попытку. Если проблема не исчезнет, удалите приложение и восстановите данные из резервной копии.</string>
     <!-- Biometric unlock prompt -->
     <string name="biometric_prompt_title">Разблокировать Mood Cairns</string>
-    <string name="biometric_prompt_subtitle">Подтвердите личность, чтобы продолжить</string>
+    <string name="biometric_prompt_subtitle">Подтвердите личность для входа</string>
     <string name="biometric_prompt_use_pin">Ввести PIN-код</string>
-
     <!-- No-PIN warning -->
     <string name="no_pin_warning_title_setup">Продолжить без PIN-кода?</string>
     <string name="no_pin_warning_title_remove">Удалить PIN-код?</string>
-    <string name="no_pin_warning_body">Без PIN-кода любой, кто может пользоваться этим разблокированным устройством, сможет открыть Mood Cairns и прочитать все ваши записи. Данные останутся зашифрованными на устройстве, но только с помощью защищённого хранилища ключей устройства: дополнительная защита PIN-кода исчезнет, а биометрическая разблокировка будет отключена. Установить PIN-код снова можно в любой момент в настройках.</string>
+    <string name="no_pin_warning_body">Без PIN-кода любой, кто может взять ваше разблокированное устройство, сможет открыть Mood Cairns и прочитать все ваши записи. Данные останутся зашифрованными на устройстве, но только с помощью защищённого системного хранилища: дополнительная защита PIN-кодом исчезнет, а биометрический вход будет полностью отключен. Установить PIN-код снова можно в любой момент в настройках.</string>
     <string name="no_pin_warning_accept">Принять и продолжить</string>
-
     <!-- App language picker -->
     <string name="language_app_language">Язык приложения</string>
     <string name="language_system_default">Как в системе</string>
     <string name="language_system_untranslated">%1$s (перевода пока нет, используется английский)</string>
-
     <!-- Settings screen -->
     <string name="settings_title">Настройки</string>
     <string name="settings_section_language">Язык</string>
-    <string name="settings_section_prompt_windows">Окна напоминаний</string>
-    <string name="settings_add_window">Добавить окно</string>
+    <string name="settings_section_prompt_windows">Интервалы напоминаний</string>
+    <string name="settings_add_window">Добавить интервал</string>
     <string name="settings_window_summary">%1$s – %2$s · %3$s</string>
     <string name="settings_section_security">Безопасность</string>
     <string name="settings_auto_lock_label">Автоблокировка в фоне через</string>
@@ -370,12 +347,12 @@
     <string name="settings_change_pin">Изменить PIN-код</string>
     <string name="settings_lock_now">Заблокировать сейчас</string>
     <string name="settings_set_pin">Установить PIN-код</string>
-    <string name="settings_no_pin_explanation">PIN-код не установлен. Ваши данные зашифрованы на этом устройстве, но защищены только хранилищем ключей устройства, а не PIN-кодом. Без PIN-кода недоступны автоблокировка, биометрическая разблокировка и «Заблокировать сейчас».</string>
+    <string name="settings_no_pin_explanation">PIN-код не установлен. Ваши данные зашифрованы на устройстве, но защищены только системным хранилищем ключей. Без PIN-кода недоступны автоблокировка, биометрический вход и мгновенная блокировка.</string>
     <string name="settings_section_danger_zone">Опасная зона</string>
     <string name="settings_allow_unsafe_exports">Разрешить небезопасный экспорт</string>
-    <string name="settings_allow_unsafe_exports_summary">Включает экспорт в CSV без шифрования в разделе «Резервные копии и импорт». По умолчанию выключено.</string>
+    <string name="settings_allow_unsafe_exports_summary">Включает экспорт в незашифрованный CSV в разделе «Резервное копирование». По умолчанию выключено.</string>
     <string name="settings_unsafe_exports_dialog_title">Разрешить небезопасный экспорт?</string>
-    <string name="settings_unsafe_exports_dialog_body">Появится возможность экспортировать данные в незашифрованный CSV-файл в общем хранилище. Этот файл содержит обычный текст без парольной фразы: облачные сервисы резервного копирования, файловые менеджеры и любые другие приложения с доступом к общему хранилищу смогут прочитать все ваши записи.\n\nВключайте эту функцию, только если понимаете и принимаете этот риск.</string>
+    <string name="settings_unsafe_exports_dialog_body">Появится возможность экспортировать данные в незашифрованный CSV-файл. Этот файл содержит обычный текст и не защищен паролем: любые программы с доступом к хранилищу (облачные диски, файловые менеджеры) смогут прочесть ваши личные записи.\n\nВключайте эту функцию, только если полностью понимаете и принимаете этот риск.</string>
     <string name="settings_allow_screenshots">Разрешить скриншоты</string>
     <plurals name="settings_allow_screenshots_summary">
         <item quantity="one">Временно разрешает скриншоты и запись экрана на %1$d минуту. Экран блокировки остаётся защищённым. По умолчанию выключено.</item>
@@ -386,19 +363,18 @@
     <string name="settings_screenshots_allowed_until">Разрешено до %1$s</string>
     <string name="settings_screenshots_dialog_title">Разрешить скриншоты?</string>
     <plurals name="settings_screenshots_dialog_body">
-        <item quantity="one">На следующую %1$d минуту скриншоты, запись экрана, трансляция и превью в списке недавних приложений смогут захватить всё, что показано на экране, включая ваши записи. Скриншоты сохраняются в общем хранилище, где их могут прочитать облачные сервисы резервного копирования и другие приложения.\n\nСкриншоты снова будут заблокированы автоматически через %1$d минуту или при блокировке приложения.</item>
-        <item quantity="few">На следующие %1$d минуты скриншоты, запись экрана, трансляция и превью в списке недавних приложений смогут захватить всё, что показано на экране, включая ваши записи. Скриншоты сохраняются в общем хранилище, где их могут прочитать облачные сервисы резервного копирования и другие приложения.\n\nСкриншоты снова будут заблокированы автоматически через %1$d минуты или при блокировке приложения.</item>
-        <item quantity="many">На следующие %1$d минут скриншоты, запись экрана, трансляция и превью в списке недавних приложений смогут захватить всё, что показано на экране, включая ваши записи. Скриншоты сохраняются в общем хранилище, где их могут прочитать облачные сервисы резервного копирования и другие приложения.\n\nСкриншоты снова будут заблокированы автоматически через %1$d минут или при блокировке приложения.</item>
-        <item quantity="other">На следующие %1$d минуты скриншоты, запись экрана, трансляция и превью в списке недавних приложений смогут захватить всё, что показано на экране, включая ваши записи. Скриншоты сохраняются в общем хранилище, где их могут прочитать облачные сервисы резервного копирования и другие приложения.\n\nСкриншоты снова будут заблокированы автоматически через %1$d минуты или при блокировке приложения.</item>
+        <item quantity="one">На следующую %1$d минуту скриншоты, запись экрана, трансляция и превью в списке недавних приложений смогут захватить всё, что показано на экране, включая ваши записи. Скриншоты сохраняются в общем хранилище, где их могут прочитать облачные сервисы и другие приложения.\n\nСкриншоты снова будут заблокированы автоматически через %1$d минуту или при блокировке приложения.</item>
+        <item quantity="few">На следующие %1$d минуты скриншоты, запись экрана, трансляция и превью в списке недавних приложений смогут захватить всё, что показано на экране, включая ваши записи. Скриншоты сохраняются в общем хранилище, где их могут прочитать облачные сервисы и другие приложения.\n\nСкриншоты снова будут заблокированы автоматически через %1$d минуты или при блокировке приложения.</item>
+        <item quantity="many">На следующие %1$d минут скриншоты, запись экрана, трансляция и превью в списке недавних приложений смогут захватить всё, что показано на экране, включая ваши записи. Скриншоты сохраняются в общем хранилище, где их могут прочитать облачные сервисы и другие приложения.\n\nСкриншоты снова будут заблокированы автоматически через %1$d минут или при блокировке приложения.</item>
+        <item quantity="other">На следующие %1$d минуты скриншоты, запись экрана, трансляция и превью в списке недавних приложений смогут захватить всё, что показано на экране, включая ваши записи. Скриншоты сохраняются в общем хранилище, где их могут прочитать облачные сервисы и другие приложения.\n\nСкриншоты снова будут заблокированы автоматически через %1$d минуты или при блокировке приложения.</item>
     </plurals>
     <string name="settings_section_diagnostics">Диагностика</string>
     <plurals name="settings_test_notification">
-        <item quantity="one">Тестовое уведомление (примерно через %1$d секунду)</item>
-        <item quantity="few">Тестовое уведомление (примерно через %1$d секунды)</item>
-        <item quantity="many">Тестовое уведомление (примерно через %1$d секунд)</item>
-        <item quantity="other">Тестовое уведомление (примерно через %1$d секунды)</item>
+    <item quantity="one">Тестовое уведомление (примерно через %1$d секунду)</item>
+    <item quantity="few">Тестовое уведомление (примерно через %1$d секунды)</item>
+    <item quantity="many">Тестовое уведомление (примерно через %1$d секунд)</item>
+    <item quantity="other">Тестовое уведомление (примерно через %1$d секунды)</item>
     </plurals>
-
     <!-- Lock screen -->
     <string name="lock_title">Заблокировано</string>
     <string name="lock_subtitle">Введите PIN-код, чтобы продолжить</string>
@@ -410,7 +386,6 @@
     <string name="lock_error_wrong_pin">Неверный PIN-код</string>
     <string name="lock_error_too_many_attempts">Слишком много попыток</string>
     <string name="lock_error_unlock_failed">Не удалось разблокировать: %1$s</string>
-
     <!-- First-run PIN setup -->
     <string name="set_pin_title">Установите PIN-код</string>
     <string name="set_pin_intro">Ваши записи никогда не покидают устройство. PIN-код и биометрическая разблокировка сохраняют их только для вас.</string>
@@ -425,7 +400,6 @@
     <string name="set_pin_continue_without">Продолжить без PIN-кода</string>
     <string name="set_pin_error_failed">Не удалось установить PIN-код: %1$s</string>
     <string name="set_pin_error_no_pin_failed">Не удалось продолжить без PIN-кода: %1$s</string>
-
     <!-- Change PIN screen -->
     <string name="change_pin_title_change">Изменить PIN-код</string>
     <string name="change_pin_title_set">Установить PIN-код</string>
@@ -435,16 +409,16 @@
     <string name="change_pin_current_label">Текущий PIN-код</string>
     <string name="change_pin_new_label">Новый PIN-код</string>
     <string name="change_pin_confirm_label">Подтвердите новый PIN-код</string>
-    <string name="change_pin_remove_hint">Оставьте поля нового PIN-кода пустыми, чтобы удалить PIN-код.</string>
-    <string name="change_pin_error_current_required">Введите текущий PIN-код, чтобы удалить его</string>
+    <string name="change_pin_remove_hint">Оставьте поля нового PIN-кода пустыми, чтобы удалить защиту приложения.</string>
+    <string name="change_pin_error_current_required">Введите текущий PIN-код для его удаления</string>
     <string name="change_pin_error_wrong_current">Текущий PIN-код неверен</string>
-    <string name="change_pin_error_locked">Приложение заблокировано; разблокируйте его и повторите попытку</string>
+    <string name="change_pin_error_locked">Приложение заблокировано. Разблокируйте его и повторите попытку.</string>
     <string name="change_pin_error_failed">Не удалось изменить PIN-код: %1$s</string>
     <plurals name="change_pin_error_new_pin_too_short">
-        <item quantity="one">Новый PIN-код должен содержать минимум %1$d цифру</item>
-        <item quantity="few">Новый PIN-код должен содержать минимум %1$d цифры</item>
-        <item quantity="many">Новый PIN-код должен содержать минимум %1$d цифр</item>
-        <item quantity="other">Новый PIN-код должен содержать минимум %1$d цифры</item>
+        <item quantity="one">Новый PIN-код должен содержать не менее %1$d цифры</item>
+        <item quantity="few">Новый PIN-код должен содержать не менее %1$d цифр</item>
+        <item quantity="many">Новый PIN-код должен содержать не менее %1$d цифр</item>
+        <item quantity="other">Новый PIN-код должен содержать не менее %1$d цифры</item>
     </plurals>
     <plurals name="change_pin_error_rate_limited">
         <item quantity="one">Слишком много попыток. Повторите через %1$d секунду.</item>
@@ -452,47 +426,42 @@
         <item quantity="many">Слишком много попыток. Повторите через %1$d секунд.</item>
         <item quantity="other">Слишком много попыток. Повторите через %1$d секунды.</item>
     </plurals>
-
     <!-- Scale editor errors -->
     <string name="scale_edit_error_not_found">Шкала не найдена</string>
-    <string name="scale_edit_error_numbers_required">Введите числа для мин., макс. и шага</string>
+    <string name="scale_edit_error_numbers_required">Введите числовые значения для мин., макс. и шага</string>
     <string name="scale_edit_error_min_not_below_max">Минимум должен быть меньше максимума</string>
     <string name="scale_edit_error_step_not_positive">Шаг должен быть больше нуля</string>
-    <string name="scale_edit_error_range_not_step_multiple">Диапазон (%1$d) должен быть кратен шагу (%2$s)</string>
+    <string name="scale_edit_error_range_not_step_multiple">Диапазон (%1$d) должен делиться без остатка на шаг (%2$s)</string>
     <string name="scale_edit_error_default_not_number">Начальное значение должно быть числом</string>
-    <string name="scale_edit_error_default_out_of_range" tools:ignore="PluralsCandidate">Начальное значение должно быть от %1$d до %2$d</string>
-    <string name="scale_edit_error_default_off_step">Начальное значение должно попадать на шаг %1$s от %2$d</string>
-
+    <string name="scale_edit_error_default_out_of_range" tools:ignore="PluralsCandidate">Начальное значение должно быть в пределах от %1$d до %2$d</string>
+    <string name="scale_edit_error_default_off_step">Начальное значение должно соответствовать шагу %1$s от %2$d</string>
     <!-- Tag editor errors -->
     <string name="tag_edit_error_not_found">Тег не найден</string>
-    <string name="tag_edit_error_name_taken">Тег «%1$s» уже есть в этой категории</string>
-
+    <string name="tag_edit_error_name_taken">Тег «%1$s» уже существует в этой категории</string>
     <!-- Prompt window editor errors -->
-    <string name="window_edit_error_not_found">Окно напоминания не найдено</string>
+    <string name="window_edit_error_not_found">Интервал напоминания не найден</string>
     <string name="window_edit_error_label_required">Укажите название</string>
-    <string name="window_edit_error_start_not_before_end">Начало должно быть раньше конца</string>
-
+    <string name="window_edit_error_start_not_before_end">Время начала должно быть раньше окончания</string>
     <!-- Backup messages -->
     <string name="backup_error_unsafe_exports_disabled">Небезопасный экспорт отключён</string>
     <plurals name="backup_error_passphrase_too_short">
-        <item quantity="one">Парольная фраза должна содержать минимум %1$d символ</item>
-        <item quantity="few">Парольная фраза должна содержать минимум %1$d символа</item>
-        <item quantity="many">Парольная фраза должна содержать минимум %1$d символов</item>
-        <item quantity="other">Парольная фраза должна содержать минимум %1$d символа</item>
+        <item quantity="one">Пароль должен содержать не менее %1$d символа</item>
+        <item quantity="few">Пароль должен содержать не менее %1$d символов</item>
+        <item quantity="many">Пароль должен содержать не менее %1$d символов</item>
+        <item quantity="other">Пароль должен содержать не менее %1$d символа</item>
     </plurals>
-    <string name="backup_export_success">Экспортировано: %1$s</string>
-    <string name="backup_export_csv_success">Экспортировано: %1$s (без шифрования)</string>
-    <string name="backup_export_failed">Не удалось экспортировать: %1$s</string>
-    <string name="backup_import_success">Импорт завершён. Записи: %1$d, шкалы: %2$d, теги: %3$d, окна напоминаний: %4$d</string>
-    <string name="backup_import_failed">Не удалось импортировать: %1$s</string>
-
+    <string name="backup_export_success">Успешно сохранено: %1$s</string>
+    <string name="backup_export_csv_success">Успешно сохранено в CSV: %1$s (без шифрования)</string>
+    <string name="backup_export_failed">Не удалось сохранить: %1$s</string>
+    <string name="backup_import_success">Импорт успешно завершён. Записи: %1$d, шкалы: %2$d, теги: %3$d, интервалы напоминаний: %4$d</string>
+    <string name="backup_import_failed">Не удалось импортировать данные: %1$s</string>
     <!-- Import errors -->
-    <string name="import_error_too_large">Файл превышает ограничение в %1$d МБ.</string>
-    <string name="import_error_unreadable">Не удалось прочитать файл.</string>
+    <string name="import_error_too_large">Размер файла превышает ограничение в %1$d МБ.</string>
+    <string name="import_error_unreadable">Не удалось прочитать выбранный файл.</string>
     <string name="import_error_unreadable_detail">Не удалось прочитать файл (%1$s).</string>
     <string name="import_error_not_a_backup">Этот файл не является резервной копией Mood Cairns.</string>
-    <string name="import_error_wrong_secret">Не удалось расшифровать копию. Неверная парольная фраза или файл повреждён.</string>
-    <string name="import_error_unsupported_version">Эта копия использует формат версии %1$d, который эта версия приложения не может прочитать. Может помочь обновление приложения.</string>
+    <string name="import_error_wrong_secret">Не удалось расшифровать копию. Проверьте пароль или файл повреждён.</string>
+    <string name="import_error_unsupported_version">Этот бэкап использует формат версии %1$d, который текущая версия приложения не поддерживает. Попробуйте обновить приложение.</string>
     <string name="import_error_malformed">Файл резервной копии повреждён (%1$s).</string>
-    <string name="import_error_write_failed">Импорт прерван при сохранении данных (%1$s).</string>
+    <string name="import_error_write_failed">Импорт прерван при записи данных в память устройства (%1$s).</string>
 </resources>
