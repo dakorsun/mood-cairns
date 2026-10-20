@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
     Ukrainian, polite "ви". DRAFT pending native-speaker review. Translated from the
-    English source, not from Russian.
+    English source.
     - "ви" takes plural agreement, so verbs stay gender-neutral; first-person text about
       the author avoids gendered past tense ("Mood Cairns з’явився…").
     - Plurals use all four categories: one (1, 21, …), few (2-4, 22-24, …),
@@ -237,7 +237,7 @@
 
     <!-- Backup screen -->
     <string name="backup_title">Резервні копії та імпорт</string>
-    <string name="backup_intro">Резервні копії шифруються за допомогою AES-GCM ключем, отриманим з обраної вами парольної фрази, і зберігаються в Documents/MoodCairns. Syncthing або будь-який файловий менеджер може синхронізувати їх з іншими пристроями; сам застосунок нічого не надсилає в мережу.</string>
+    <string name="backup_intro">Резервні копії шифруються алгоритмом AES-GCM із ключем, отриманим з обраної вами парольної фрази, і зберігаються в Documents/MoodCairns. Syncthing або будь-який файловий менеджер може синхронізувати їх з іншими пристроями; сам застосунок нічого не надсилає в мережу.</string>
     <string name="backup_export">Експортувати</string>
     <string name="backup_export_csv">Експорт у CSV без шифрування</string>
     <string name="backup_export_csv_warning">CSV-файл містить звичайний текст і НЕ зашифрований. Усе, що може читати вашу папку Documents (хмарні резервні копії, файлові менеджери, інші застосунки), зможе прочитати ваші записи. Щоб приховати цей варіант, вимкніть небезпечний експорт у налаштуваннях.</string>
