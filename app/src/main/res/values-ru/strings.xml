@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Russian, polite "вы". DRAFT pending native-speaker review.
+    Russian, polite "вы".
     - "вы" takes plural agreement, so verbs stay gender-neutral; first-person text about
       the author avoids gendered past tense ("Mood Cairns появился…", not "Я создал").
     - Plurals use all four categories: one (1, 21, …), few (2-4, 22-24, …),
       many (0, 5-20, 25-30, …) and other (fractions; genitive singular).
     - Where a second number's plural is not driven by the plural's own count (the
       rolling-average days), the invariant abbreviation "дн." is used.
+    - Exception to the project's no-em-dash rule: "меньше — лучше" keeps the em-dash,
+      as standard Russian typography requires, per native-speaker review.
     Source: values/strings.xml.
 -->
 <resources xmlns:tools="http://schemas.android.com/tools">
@@ -68,9 +70,9 @@
     <string name="enum_prompt_slot_custom">Своё</string>
     <!-- Built-in scales, tags, and prompt windows -->
     <string name="seed_scale_happiness">Настроение</string>
-    <string name="seed_scale_anxiety">Стресс / Напряжение</string>
-    <string name="seed_scale_stress">Апатия / Скука</string>
-    <string name="seed_scale_boredom">Скука</string>
+    <string name="seed_scale_anxiety">Тревога</string>
+    <string name="seed_scale_stress">Стресс / Напряжение</string>
+    <string name="seed_scale_boredom">Апатия / Скука</string>
     <string name="seed_scale_pain">Боль</string>
     <string name="seed_tag_home">Дом</string>
     <string name="seed_tag_work">Работа</string>
@@ -248,12 +250,12 @@
     <string name="about_why_body">Mood Cairns появился потому, что мне хотелось иметь удобный трекер настроения без всего лишнего: без скрытой слежки, без встроенной аналитики, без создания учетных записей и без необходимости покупать подписки через Google Play Store. Ваши записи хранятся исключительно на вашем личном устройстве: приложение принципиально не запрашивает доступ к интернету, и так будет всегда.</string>
     <string name="about_made_by">Разработчик: %1$s. Бесплатно и с открытым исходным кодом. Спасибо!</string>
     <string name="about_updates_title">Обновления</string>
-    <string name="about_updates_body"><b>Если вы установили приложение через F-Droid, обновления будут приходить автоматически</b>. Если вы скачали Mood Cairns напрямую с GitHub, вы можете проверить наличие обновлений кнопкой ниже и <b>скачать свежий файл .apk</b> из раздела Assets.</string>
+    <string name="about_updates_body">&lt;b&gt;Если вы установили приложение через F-Droid, обновления будут приходить автоматически&lt;/b&gt;. Если вы скачали Mood Cairns напрямую с GitHub, вы можете проверить наличие обновлений кнопкой ниже и &lt;b&gt;скачать свежий файл .apk&lt;/b&gt; из раздела Assets.</string>
     <string name="about_get_latest">Скачать последнюю версию</string>
     <string name="about_get_latest_hint">Откроет страницу релизов на GitHub в вашем браузере. Само приложение к сети не обращается.</string>
     <string name="about_no_browser">На устройстве не найден браузер для открытия страницы.</string>
     <string name="about_contact_title">Обратная связь</string>
-    <string name="about_contact_body">Чтобы предложить новую функцию или сообщить об ошибке, пожалуйста, <a href=\"%1$s\">создайте новое обращение (issue) на GitHub</a>.</string>
+    <string name="about_contact_body">Чтобы предложить новую функцию или сообщить об ошибке, пожалуйста, &lt;a href=\"%1$s\"&gt;создайте новое обращение (issue) на GitHub&lt;/a&gt;.</string>
     <!-- Charts screen -->
     <string name="charts_title">Графики</string>
     <string name="charts_help_button">Справка</string>
@@ -318,7 +320,7 @@
     <string name="charts_help_absolute_body" formatted="false">Показывает каждую линию относительно полного диапазона её шкалы, от минимума до максимума. Изменения выглядят меньше, зато разные шкалы выравниваются, и их можно наглядно сравнивать на одном графике. Шкалы с пометкой «меньше — лучше» здесь перевёрнуты, чтобы улучшение состояния всегда было направлено вверх. Подписи слева указаны в процентах, потому что каждая линия измеряется относительно своего диапазона: 100% соответствует верху диапазона, а для шкалы «меньше — лучше» соответствует его нижней точке.</string>
     <!-- Data store upgrade -->
     <string name="migrating_title">Обновление хранилища данных…</string>
-    <string name="migrating_body">Ваши записи переносятся в зашифрованную базу данных. Пожалуйста, не закрывайте приложение.</string
+    <string name="migrating_body">Ваши записи переносятся в зашифрованную базу данных. Пожалуйста, не закрывайте приложение.</string>
     <string name="migration_failed_title">Не удалось обновить данные</string>
     <string name="migration_failed_body">Исходные данные по-прежнему сохранены на устройстве. Откройте приложение снова, чтобы повторить попытку. Если проблема не исчезнет, удалите приложение и восстановите данные из резервной копии.</string>
     <!-- Biometric unlock prompt -->
@@ -370,10 +372,10 @@
     </plurals>
     <string name="settings_section_diagnostics">Диагностика</string>
     <plurals name="settings_test_notification">
-    <item quantity="one">Тестовое уведомление (примерно через %1$d секунду)</item>
-    <item quantity="few">Тестовое уведомление (примерно через %1$d секунды)</item>
-    <item quantity="many">Тестовое уведомление (примерно через %1$d секунд)</item>
-    <item quantity="other">Тестовое уведомление (примерно через %1$d секунды)</item>
+        <item quantity="one">Тестовое уведомление (примерно через %1$d секунду)</item>
+        <item quantity="few">Тестовое уведомление (примерно через %1$d секунды)</item>
+        <item quantity="many">Тестовое уведомление (примерно через %1$d секунд)</item>
+        <item quantity="other">Тестовое уведомление (примерно через %1$d секунды)</item>
     </plurals>
     <!-- Lock screen -->
     <string name="lock_title">Заблокировано</string>
