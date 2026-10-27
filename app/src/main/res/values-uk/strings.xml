@@ -295,10 +295,10 @@
         <item quantity="other">%1$d запису · вихідні значення за днями</item>
     </plurals>
     <plurals name="charts_summary_rolling">
-        <item quantity="one">%1$d запис · ковзне середнє за %2$d дн.</item>
-        <item quantity="few">%1$d записи · ковзне середнє за %2$d дн.</item>
-        <item quantity="many">%1$d записів · ковзне середнє за %2$d дн.</item>
-        <item quantity="other">%1$d запису · ковзне середнє за %2$d дн.</item>
+        <item quantity="one">%1$d запис · рухоме середнє за %2$d дн.</item> <!-- wtf is rolling / ковзне -->
+        <item quantity="few">%1$d записи · рухоме середнє за %2$d дн.</item> <!-- wtf is rolling / ковзне -->
+        <item quantity="many">%1$d записів · рухоме середнє за %2$d дн.</item> <!-- wtf is rolling / ковзне -->
+        <item quantity="other">%1$d запису · рухоме середнє за %2$d дн.</item> <!-- wtf is rolling / ковзне -->
     </plurals>
     <string name="charts_y_axis_label">Вісь Y</string>
     <string name="charts_axis_autofit">Авто</string>
